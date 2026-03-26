@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+
+/* HEADER */
+.top {
+    background: orange;
+    text-align: center;
+    padding: 15px;
+    color: white;
+}
+
+.menu {
+    background: #c40000;
+}
+
+.menu ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+.menu li {
+    position: relative;
+    padding: 15px 20px;
+    color: white;
+    cursor: pointer;
+}
+
+/* DROPDOWN */
+.submenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: orange;
+    list-style: none;
+    min-width: 120px;
+}
+
+.submenu li {
+    padding: 10px;
+    color: white;
+}
+
+.dropdown:hover .submenu {
+    display: block;
+}
+
+/* MAIN */
+.main {
+    display: flex;
+    padding: 20px;
+    gap: 20px;
+}
+
+.left {
+    width: 35%;
+}
+
+.small-news {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.small-news img {
+    width: 120px;
+    margin-right: 10px;
+}
+
+.right {
+    width: 65%;
+}
+
+.right img {
+    width: 100%;
+}
+
+/* CATEGORY */
+.category {
+    display: flex;
+    padding: 20px;
+    gap: 20px;
+}
+
+.col {
+    flex: 1;
+}
+
+.col img {
+    width: 100%;
+}
+
+/* BOTTOM */
+.bottom {
+    display: flex;
+    padding: 20px;
+    gap: 20px;
+}
+
+.list {
+    width: 60%;
+}
+
+.list ol {
+    margin-top: 10px;
+}
+
+.survey {
+    width: 40%;
+    border: 1px solid #ccc;
+    padding: 15px;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px;
+    background: orange;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
